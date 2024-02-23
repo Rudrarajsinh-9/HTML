@@ -1,0 +1,41 @@
+.about {
+  color: blueviolet;
+  text-align: center;
+  font-size: 25px;
+}
+.home {
+  float: left;
+  margin-right: 40px;
+}
+.about {
+  float: right;
+  margin-right: 40px;
+}
+.contact {
+  float: right;
+  margin-right: 40px;
+}
+.login {
+  float: right;
+  margin-right: 40px;
+}
+.main {
+  position: relative;
+}
+.writtentext {
+  position: absolute;
+  top: 0px;
+  right: 40px;
+}
+.boxes {
+  display: inline-block;
+}
+.box {
+  height: 200px;
+  width: 250px;
+  border: 3px solid red;
+  display: inline-block;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+  

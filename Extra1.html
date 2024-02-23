@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      th,
+      td {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+
+      th {
+        background-color: #f2f2f2;
+      }
+
+      tr:nth-child(even) {
+        background-color: #f9f9f9;
+      }
+
+      @media (max-width: 600px) {
+        th,
+        td {
+          display: block;
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <table border="1" width="100%">
+      <tr align="center">
+        <th>Department</th>
+        <td>Computer Engineering</td>
+        <td>Computer Engineering</td>
+        <td>Information Technology</td>
+        <td>Information Technology</td>
+      </tr>
+      <tr align="center">
+        <th></th>
+        <td>1st Year</td>
+        <td>2nd Year</td>
+        <td>1st Year</td>
+        <td>2nd Year</td>
+      </tr>
+      <tr align="center">
+        <td rowspan="2">1st Sem</td>
+        <td>CPU</td>
+        <td>EG</td>
+        <td>CS</td>
+        <td>Calculus</td>
+      </tr>
+      <tr align="center">
+        <td>WS</td>
+        <td>ECE</td>
+        <td>EME</td>
+        <td>EEE</td>
+      </tr>
+      <tr align="center">
+        <td rowspan="2">2nd Sem</td>
+        <td>COA</td>
+        <td>DLD</td>
+        <td>BIS</td>
+        <td>BE</td>
+      </tr>
+      <tr align="center">
+        <td>OS</td>
+        <td>DBMS</td>
+        <td>OOAD</td>
+        <td>SAD</td>
+      </tr>
+      <tr align="center">
+        <td rowspan="2">3rd Sem</td>
+        <td>DAA</td>
+        <td>DBMS</td>
+        <td>COSAM</td>
+        <td>SEMINAR</td>
+      </tr>
+      <tr align="center">
+        <td>SE</td>
+        <td>CN</td>
+        <td>SP</td>
+        <td>IS</td>
+      </tr>
+      <tr align="center">
+        <td rowspan="2">4th Sem</td>
+        <td>CC</td>
+        <td>WAD</td>
+        <td>ERP</td>
+        <td>MC</td>
+      </tr>
+      <tr align="center">
+        <td>DS</td>
+        <td>CD</td>
+        <td>ACN</td>
+        <td>AI</td>
+      </tr>
+    </table>
+  </body>
+</html>
