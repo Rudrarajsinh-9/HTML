@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Registration</title>
+    <link href="../bootstrap-5.3.3-dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="">
+                    <div class="row mb-3">
+                        <h1 class="text-center">Employee Registration</h1>
+                    </div>
+                    <div class="row justify-content-center h5 mb-3">Personal  Information</div>
+                    <div class="">
+                        <form>
+                            <div class="form-group row mb-3">
+                                <label for="employeeId" class="col col-form-label">Employee ID :</label>
+                                <div class="col">
+                                    <input type="text" class="form-control" id="employeeId" placeholder="Enter Employee ID">
+                                </div>
+                                <label for="employeeName" class="col col-form-label">Employee Name :</label>
+                                <div class="col">
+                                    <input type="text" class="form-control" id="employeeName" placeholder="Enter Employee Name">
+                                </div>
+                            </div>
+                            <div class="form-group row mb-3">
+                                <label for="email" class="col col-form-label">Email :</label>
+                                <div class="col">
+                                    <input type="email" class="form-control" id="email" placeholder="Enter Email">
+                                </div>
+                                <label for="contactNo" class="col col-form-label">Contact No :</label>
+                                <div class="col">
+                                    <input type="text" class="form-control" id="contactNo" placeholder="Enter Contact No.">
+                                </div>
+                            </div>
+                            <div class="form-group row mb-3">
+                                <label class="col-3  col-form-label">Marital Status :</label>
+                                <div class="col-9">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="status" id="single" value="Single">
+                                        <label class="form-check-label" for="single">Single</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="status" id="married" value="Married">
+                                        <label class="form-check-label" for="married">Married</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center mb-3 h5">Education Qualification</div>
+                            <div class="form-group row mb-3">
+                                <label for="education" class="col col-form-label">Education :</label>
+                                <div class="col">
+                                    <input type="text" class="form-control" id="education" placeholder="Enter Education Details">
+                                </div>
+                                <label for="experience" class="col col-form-label">Experience :</label>
+                                <div class="col">
+                                    <input type="text" class="form-control" id="experience" placeholder="Enter Experience Details">
+                                </div>
+                            </div>
+
+                            <div class="row justify-content-center mb-3 h5">Job Details</div>
+
+                            <div class="form-group row mb-3">
+                                <label for="designation" class="col col-form-label">Designation :</label>
+                                <div class="col">
+                                    <input type="text" class="form-control" id="designation" placeholder="Enter Designation Details">
+                                </div>
+                                <label for="jobLocation" class="col col-form-label">Job Location :</label>
+                                <div class="col">
+                                    <input type="text" class="form-control" id="jobLocation" placeholder="Enter Job Location">
+                                </div>
+                            </div>
+                            <div class="form-group row mb-4">
+                                <label for="salary" class="col col-form-label">Salary :</label>
+                                <div class="col">
+                                    <input type="text" class="form-control" id="salary" placeholder="Enter Salary Details">
+                                </div>
+                                <label for="salary" class="col col-form-label"></label>
+                                <div class="col">
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="form-group row">
+                                <div class="col text-center">
+                                <button type="submit" class="btn btn-primary">Register</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
